@@ -12,12 +12,14 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on("keydown", function() {
+  $('#typing').on("keydown", function() {
     if ($('input').val() === 71) {
       alert('G was pressed');
     }
   });
 }
+
+//
 
 function submitIt() {
   $('form').on("submit", function() {

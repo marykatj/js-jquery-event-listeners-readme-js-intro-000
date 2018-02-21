@@ -12,14 +12,14 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on("keydown", function() {
-    if ($('input').val() === 71) {
+  $('#typing').on("keydown", function(e) {
+    if (e.which === 71) {
       alert('G was pressed');
     }
   });
 }
 
-//
+// okay i see ohhhhhhhhh
 
 function submitIt() {
   $('form').on("submit", function() {

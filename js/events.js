@@ -8,9 +8,9 @@ function getIt() {
 function frameIt() {
   $('img').on("load", function() {
     $('img').addClass('tasty');
-      $('img').tasty.style.border-width = "5px";
-      $('img').tasty.style.border-color = "#FF0000";
-      $('img').tasty.style.border-style = "solid";
+      $('img').tasty.style.border.width = "5px";
+      $('img').tasty.style.border.color = "#FF0000";
+      $('img').tasty.style = "solid";
   });
 }
 

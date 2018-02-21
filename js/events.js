@@ -10,8 +10,8 @@ function frameIt() {
     $('img').addClass('tasty');
     $('img').style.tasty {
       border-width: "5px";
-      border-color: red;
-      border-style: solid;
+      border-color: "red";
+      border-style: "solid";
     }
   });
 }

@@ -11,7 +11,7 @@ function frameIt() {
       $('img').tasty.style.border.width = "5px";
       $('img').tasty.style.border.color = "#FF0000";
       $('img').tasty.style.border = "solid";
-  })
+  });
 }
 
 function pressIt() {

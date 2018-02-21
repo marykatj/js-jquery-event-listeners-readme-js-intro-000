@@ -13,7 +13,7 @@ function frameIt() {
       border-color: red;
       border-style: solid;
     }
-  });
+  })
 }
 
 function pressIt() {

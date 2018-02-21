@@ -13,12 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $("form").on("keydown", function() {
-    if ($("input").val() === 71) {
-      alert('G was pressed');
-      return;
-    } else {
-    return;
-  }
+    return $("input").val() === 71 ? alert('G was pressed') : return
   });
 }
 
@@ -38,10 +33,13 @@ $(document).ready(function(){
 
 /*
 
-function frameIt() {
-  $('img').on("load", function() {
-    $('img').addClass('tasty');
-    tasty.style.borderColor = "#FF0000";
+function pressIt() {
+  $("form").on("keydown", function() {
+    if ($("input").val() === 71) {
+      alert('G was pressed');
+      return;
+    }
+    return;
   });
 }
 */

@@ -19,7 +19,7 @@ function pressIt() {
   });
 }
 
-// okay i see ohhhhhhhhh
+//
 
 function submitIt() {
   $('form').on("submit", function() {
